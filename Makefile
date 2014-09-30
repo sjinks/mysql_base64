@@ -1,6 +1,6 @@
 TARGET = udf_gbbase64.so
 
-aLL: $(TARGET)
+all: $(TARGET)
 
 $(TARGET): udf_gbbase64.c
 	$(CC) -Wall -O2 -shared -fPIC $(CFLAGS) $(LDLAGS) -o "$@" $^

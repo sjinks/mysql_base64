@@ -212,4 +212,3 @@ DLLEXP char* gb_base64_decode(UDF_INIT* initid, UDF_ARGS* args, char* result, un
 	*res_length = base64_decode(s, args->lengths[0], result);
 	return result;
 }
-
